@@ -19,7 +19,12 @@
 using namespace std;
 
 class Data {
-    unordered_map<string, int>map{{"Code1", 12},{"Code2", 34},{"Code3", 90}};
+    unordered_map<string, int>map{
+        {"Code1", 12},
+        {"Code2", 34},
+        {"Code3", 90},
+        {"Code7", 76}
+    };
 public:
     unordered_map<string, int> getData();
 };
