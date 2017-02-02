@@ -8,14 +8,8 @@
 
 #ifndef Data_h
 #define Data_h
-
-#include <stdio.h>
-
-#endif /* Data_h */
-
 #include <unordered_map>
 #include <string>
-
 using namespace std;
 
 class Data {
@@ -25,7 +19,10 @@ class Data {
         {"Code3", 90},
         {"Code7", 76}
     };
+    int value1, value2;
 public:
+    
     unordered_map<string, int> getData();
 };
 
+#endif /* Data_h */
