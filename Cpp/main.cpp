@@ -40,6 +40,7 @@ int main(int argc, const char * argv[]) {
         cout << got->first << " is " << got->second<<endl;
         }
     }
+    
     cout << endl;
     
     return 0;
