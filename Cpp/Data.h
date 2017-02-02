@@ -19,7 +19,6 @@ class Data {
         {"Code3", 90},
         {"Code7", 76}
     };
-    int value1, value2;
 public:
     
     unordered_map<string, int> getData();
